@@ -1,0 +1,54 @@
+[{
+    "name": "Laptop",
+    "slug": "laptop",
+    "quantity": 10,
+    "category": {
+        "name": "Electronics",
+        "slug": "electronics",
+        "language": "en",
+        "startTime": "2023-04-01T00:00:00.000Z",
+        "endTime": "2023-04-30T23:59:59.999Z"
+    },
+    "tags": ["laptop", "computer", "electronics"],
+    "location": "Toronto, Canada",
+    "condition": "new",
+    "packaging": "Original packaging",
+    "dimensions": {
+        "width": 30,
+        "height": 20,
+        "length": 40,
+        "weight": 2000
+    },
+    "shippingCost": {
+        "description": "Shipping by DHL",
+        "cost": 10
+    },
+    "taxRate": {
+        "description": "13% Tax",
+        "rate": 13
+    },
+    "photoGallery": [
+        "https://example.com/laptop-image-1.jpg",
+        "https://example.com/laptop-image-2.jpg"
+    ],
+    "photoUrl": "https://example.com/laptop-image-1.jpg",
+    "description": "This is a brand new laptop with the latest hardware and software features.",
+    "attachments": [{
+        "name": "User Manual",
+        "url": "https://example.com/user-manual.pdf",
+        "type": "pdf"
+    }],
+    "estimatedValue": 2000,
+    "unitPrice": 1500,
+    "discount": {
+        "isPercent": true,
+        "value": 10
+    },
+    "inventory": 10,
+    "trackInventory": true,
+    "minimumQuantity": 1,
+    "sku": "LPTP0001",
+    "published": true,
+    "createdAt": "2023-03-19T00:00:00.000Z",
+    "updatedAt": "2023-03-19T00:00:00.000Z"
+}]

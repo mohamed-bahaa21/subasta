@@ -1,0 +1,13 @@
+[{
+    "name": "Electronics",
+    "slug": "electronics",
+    "language": "en",
+    "startTime": "2023-04-01T00:00:00.000Z",
+    "endTime": "2023-04-30T23:59:59.999Z"
+}, {
+    "name": "Fashion",
+    "slug": "fashion",
+    "language": "fr",
+    "startTime": "2023-05-15T00:00:00.000Z",
+    "endTime": "2023-06-15T23:59:59.999Z"
+}]

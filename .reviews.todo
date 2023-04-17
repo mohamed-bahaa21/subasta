@@ -1,0 +1,47 @@
+28-02-2023
+Make the code run for current PR approval:
+
+- Add the missing libs in package json. Or remove the boilerplate code, like cookie-parser.
+- Add all the missing import statements.
+- Fix Bid.Model typo in file name.
+- In search auctions controller, function name is duplicated.
+
+Tasks for the next commit:
+
+- Add validation on the services level for all the APIs. (For current commit or the next one.)
+- Start adding unit tests. (From the next commit.)
+
+############################################################################################################
+
+
+15-03-2023
+Tasks for the next commit:
+
+- Auction-Product (Done)
+    - In the auction model, change productId to product schema itself and embed it there in the auction model. 
+    In all your auction code, you are not aggregating the db to append the product. Anyway, I don't like the idea of 
+    aggregating the db for the product of the auction, or mixing the products of the auctions with the deals products in same model.
+
+- Tests (Done)
+    - Tests are not passing my machine. Fix them.
+
+- Readme (Done)
+    - Add a readme file to indicate the steps to run the project, what ENVs are essential and whats are not. 
+    Also mention the the steps to run the tests. Do I need to seed the db or your tests does? 
+    Should I use another db connection because your tests overrides the local db which we gonna use ui integration and manual testing.     
+
+- Old Auth Removal (Done)
+    - Remove all the old sign up/sign in methods with the authorize method and its usage to check the users roles.
+    We cannot have this functionality when we sign in/up from the UI.
+
+- Bidding Flow (Done)
+    - Bid flow is not complete 
+    - and you are returning response events unsafely before saving the new state in db. 
+    This is unsafe, what if the bid could not be saved in db ? 
+    - Also, we don't return the bid itself to the UI, we return the updated auction model, 
+    which contain the latest bid embedded in there after was saved in its db.
+
+--- 
+
+
+############################################################################################################

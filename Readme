@@ -1,0 +1,39 @@
+# Project Name
+
+## Installation
+
+1. Clone the repository.
+2. Run `npm install` to install the dependencies.
+3. Run `npm run seed` to seed the database.
+4. Run `npm run test` to run the tests.
+5. Run `npm run build` to build the project.
+6. Run `npm start` to start the server.
+
+## Adding A Feature
+
+- For simple logic, the route layer should suffice.
+- Use controllers to handle requests and responses.
+- Use services to implement business logic. Mid to complex route APIs should also be implemented here.
+- Use the services/third directory for 3rd party services.
+
+## Adding Validation
+
+- The index file in the validators acts as middleware between the `route` & `validation-schemes`.
+
+## Adding Custom Errors
+
+- Use `new Error(status)` for errors, and to set a custom message for a chosen status, use `errors/REST.errors`.
+
+## Adding Tests
+
+- The Mongo testing instance starts before the first file and closes after the last one.
+- Don't forget to add aliases to the `module-resolver` plugin in the `babel.config.js` for any new absolute path you add to `webpack.config`.
+- Don't forget to add a seed file to `db/seed.js` and import it with an absolute path, then call `seedData` on the model in the `seedAllData` function, then run:
+  `npm run seed`
+
+## Logs
+
+- Import the Logger service:
+  `const Logger = require('@services/third/winston/winston.service');`
+- Then, set the logger variable with the name of the file imported in:
+  `const logger = new Logger('mongodb.config');`

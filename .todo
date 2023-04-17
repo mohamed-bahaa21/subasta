@@ -1,0 +1,31 @@
+*   18-02-2023  added: firebase, mongo, socketio & init files
+*   19-02-2023  added: public-auction REST APIs | added: winston logger
+*   20-02-2023  added: public-general REST APIs | fixed: typos
+*   21-02-2023  public-categories REST APIs
+*   22-02-2023  public-deals (eCommerce) REST APIs
+*   23-02-2023  public-search REST APIs
+*   24-02-2023
+*   25-02-2023
+*   26-02-2023
+*   27-02-2023
+*   28-02-2023  added: Public APIs (REST): Auctions, Categories, Search, Deals, General
+*   01-03-2023  added: services testing design
+*   02-03-2023  private-product REST APIs
+*   03-03-2023  private-user REST APIs | firebase, stripe
+*   04-03-2023  private-cart REST APIs
+*   05-03-2023  private-orders REST APIs | stripe payment
+*   06-03-2023  private-auctions REST APIs
+07-03-2023  public-private-socket-events
+08-03-2023  admin-Carts
+09-03-2023  admin-Orders
+10-03-2023  admin-Users
+11-03-2023  admin-Auctions
+12-03-2023  admin-Categories
+13-03-2023  admin-Analytics
+14-03-2023  
+15-03-2023  
+16-03-2023  
+17-03-2023  
+18-03-2023 Deliver the code 
+20-03-2023 Fixes & Seeds
+21-03-2023 Fixes & Seeds

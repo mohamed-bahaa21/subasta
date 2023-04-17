@@ -1,0 +1,16 @@
+[{
+    "name": "terms",
+    "lang": "en",
+    "content": "1234567890", 
+    "blocks": ["block1", "block2", "block3"]
+}, {
+    "name": "terms",
+    "lang": "es",
+    "content": "2345678901", 
+    "blocks": ["block1", "block2", "block3"]
+}, {
+    "name": "privacy",
+    "lang": "en",
+    "content": "3456789012", 
+    "blocks": ["block1", "block2", "block3"]
+}]

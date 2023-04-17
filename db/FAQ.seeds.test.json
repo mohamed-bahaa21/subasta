@@ -1,0 +1,13 @@
+[{
+    "language": "en",
+    "question": "What is your return policy?",
+    "answer": "We offer a 30-day return policy for all our products. If you are not satisfied with your purchase, you can return it within 30 days of receiving it for a full refund."
+}, {
+    "language": "es",
+    "question": "¿Cuál es su política de devoluciones?",
+    "answer": "Ofrecemos una política de devolución de 30 días para todos nuestros productos. Si no está satisfecho con su compra, puede devolverla dentro de los 30 días posteriores a su recepción para obtener un reembolso completo."
+}, {
+    "language": "fr",
+    "question": "Quelle est votre politique de retour?",
+    "answer": "Nous offrons une politique de retour de 30 jours pour tous nos produits. Si vous n'êtes pas satisfait de votre achat, vous pouvez le retourner dans les 30 jours suivant sa réception pour un remboursement complet."
+}]
